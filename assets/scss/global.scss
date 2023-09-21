@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.v-application {
+    font-family: "Prompt", sans-serif !important;
+}
+
+.btn-main {
+    .v-btn {}
+    .v-btn:hover {
+        color: #f05a28;
+        background-color: transparent;
+        .v-icon {
+            color: #f05a28;
+        }
+    }
+}
+
+.head-search {
+    color: white;
+    background-color: #f05a28;
+    padding: 10px;
+}
+
+.box-search {
+    background-color: #000000;
+}
+
+.news-event {
+    border-left: solid 1px #f05a28;
+    border-right: solid 1px #f05a28;
+    border-top: solid 1px #f05a28;
+    border-bottom: solid 5px #f05a28;
+    .news-event-header {
+        border-bottom: solid 1px #f05a28;
+    }
+}
